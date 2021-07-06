@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2015",
-    "noEmitOnError": true,
-    "outFile": "app.js"
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "src",
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   }
 }
